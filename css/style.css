@@ -103,7 +103,8 @@ html, body{
 /* ---------- /TIMER ---------- */
 .banner {
     text-align: center;
-    background: #323542;
+    background-color: rgba(50,53,66,0.6);
+
     height: 390px;
     margin-top: 7em;
 }
