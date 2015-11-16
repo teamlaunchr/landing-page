@@ -697,7 +697,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 .logo-container{
     left: 50px;
     position: absolute;
-    top: 20px;
      z-index: 3;
 }
 .logo-container .logo{
@@ -723,7 +722,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     position: relative;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
-    margin-top: 150px;
+    margin-top: 100px;
     z-index: 3;
 }
 .main .logo.cursive{
@@ -740,10 +739,9 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 .main .motto, .main .subscribe .info-text{
     font-size: 28px;
-    color: #FFFFFF;
-    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
+    color: #EFEFEF;
     text-align: center;
-    margin-top: 50px;
+/*    margin-top: 10px;*/
 
 }
 
@@ -756,7 +754,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   text-align: center;
 }
 .main .subscribe .info-text{
-    padding-top: 50px;
+    padding-top: 30px;
     font-size: 18px;
     margin-bottom: 30px;
 }
@@ -933,5 +931,28 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     #video_background{
         display: none;
     }
+}
 
+
+/* ADAM'S HACKS */
+
+.well {
+  font-size: 16px;
+  color: #efefef;
+  background-color: #505050;
+  opacity: 0.7;
+  padding: 15px;
+}
+
+
+.tagline {
+  color: #bfbfbf;
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 40px;
+  
+}
+
+h6 {
+  text-align: center; 
 }
